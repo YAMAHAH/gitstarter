@@ -20,4 +20,4 @@
 
 7.解决后，执行 git rebase --continue
 
-8.重新提交代码： git push for-*
+8.重新提交代码： git push
