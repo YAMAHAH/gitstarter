@@ -47,3 +47,7 @@
     git branch --set-upstream-to=origin/dev
 
     git branch --unset-upstream master //取消对master的跟踪
+
+    git push --set-upstream origin dev //设置分支dev为默认行为
+
+    git push -u origin dev  //初次push时，加入-u参数,设置分支dev为默认行为
