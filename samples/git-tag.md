@@ -33,3 +33,11 @@ $ git tag -a v0.1.1 9fbc3d0
 标签发布--git push不会将标签对象提交到git服务器，我们需要进行显式的操作：
 $ git push origin v0.1.2 # 将v0.1.2标签提交到git服务器
 $ git push origin –tags # 将本地所有标签一次性提交到git服务器
+
+git tag 用于新建一个标签，默认为HEAD，也可以指定一个commit id；
+
+git tag -a -m "blablabla..."可以指定标签信息；
+
+git tag -s -m "blablabla..."可以用PGP签名标签；
+
+命令git tag可以查看所有标签。
