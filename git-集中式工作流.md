@@ -12,10 +12,11 @@
     git commit # 提交文件
 5.A发布功能
     git push origin master
-    此时因为中央仓库，没有更新过，所以发布成功
+    因为中央仓库，没有更新过，所以发布成功
 6.B发布功能
     git pull --rebase origin master
-    git pull合并上游的修改到自己的仓库中，--rebase选项告诉Git把B的提交移到同步了中央仓库修改后的master分支的顶部，如果没有此选项，提交历史会以一个多余的『合并提交』结尾
+    git pull合并上游的修改到自己的仓库中，--rebase选项告诉Git把B的提交移到同步了中央仓库修改后的master分支的顶部，
+	如果没有此选项，提交历史会以一个多余的『合并提交』结尾
 
     合并时可能出现冲突，那么解决冲突后提交解决冲突的文件
     git add
