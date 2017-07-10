@@ -9,7 +9,7 @@
     git commit -m "pod-library submodule"
 
     git submodule init
-    修改测试
+    
 2.修改子模块
     
     进入Submodule目录,查看状态
@@ -26,7 +26,7 @@
     
     回到父目录,提交Submodule在父项目中的变动：
 
-    git statuson branch master
+    git status on branch master
 
     提交父目录的变动
     
